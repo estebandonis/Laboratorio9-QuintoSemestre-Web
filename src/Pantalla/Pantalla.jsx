@@ -5,6 +5,9 @@ import PropTypes from 'prop-types'
 import { styles } from './Pantalla.module.css'
 
 function Pantalla({ input, previousState }) {
+  console.log('input', input)
+  console.log('previs', previousState)
+  
   let value
   if (input !== '' || input === '0') {
     value = input

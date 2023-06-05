@@ -72,7 +72,7 @@ function App() {
     if (currentState.charAt(0) === '-') {
       setcurrentState(currentState.substring(1))
     } else {
-      setcurrentState(`- ${currentState}`)
+      setcurrentState(`-${currentState}`)
     }
   }
 
